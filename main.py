@@ -50,13 +50,14 @@ st.markdown("""
 - **Data Analysis Tools:** Provides necessary tools for data analysis, enhancing the workflow for data scientists.
 """)
 
-# Displaying links using the UsefulLinks class.
+#Displaying links using the UsefulLinks class.
 my_links = UsefulLinks(information)
 my_links.display_links()
 
-st.write("")
 
 
+st.write('\n')
+    
 st.markdown("<p style='text-align: center; color: #555555;'>Created with 🐻 by <b>Onur Gumus</b></p>", unsafe_allow_html=True)
 
 
